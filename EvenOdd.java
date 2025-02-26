@@ -1,15 +1,15 @@
 import java.util.Scanner;
-class AddNum
+class EvenOdd
 {
 	public static void main(String[] args)
 	{
 	Scanner sc = new Scanner(System.in);
 	
-	System.out.println("Enter 2 Numebr ");
+	System.out.println("Enter  Numebr ");
 	int a = sc.nextInt();
-	int b = sc.nextInt();
-
-	String res = (a>b)?"Bigger is "+a : "Bigger is "+b;
+	
+	
+	String res = (a%2==0)?"Even " : "Odd ";
 	System.out.println(res);
 	}
 }
