@@ -15,4 +15,3 @@ public class EvenOddCount {
 		}System.out.println(sum+"   "+od);
 	}
 }
-
